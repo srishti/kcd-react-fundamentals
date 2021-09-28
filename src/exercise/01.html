@@ -1,3 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="module">
+      // creating root element
+      const rootElement = document.createElement('div');
+      rootElement.setAttribute('id', 'root');
+      document.body.append(rootElement);
+
+      // creating paragraph element
+      const divElement = document.createElement('div');
+      divElement.className = 'container';
+      divElement.textContent = 'Hello World';
+      rootElement.append(divElement);
+    </script>
+  </body>
+</html>
+
 <!-- Basic JavaScript-rendered Hello World -->
 <!-- http://localhost:3000/isolated/exercise/01.html -->
 
